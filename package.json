@@ -1,0 +1,53 @@
+{
+  "name": "email-css",
+  "version": "0.0.1",
+  "description": "Utilities to inline CSS for emails",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/structuralapp/email-css.git"
+  },
+  "keywords": [
+    "email",
+    "css"
+  ],
+  "author": "Structural, Inc (https://structural.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/structuralapp/email-css/issues"
+  },
+  "homepage": "https://github.com/structuralapp/email-css#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "*.d.ts",
+    "*.js",
+    "lib/*.d.ts",
+    "lib/*.js",
+    "lib/**/*.d.ts",
+    "lib/**/*.js"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "fs-extra": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/chai": "^4.1.6",
+    "@types/cheerio": "^0.22.9",
+    "@types/fs-extra": "^5.0.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "tslint": "^5.11.0",
+    "tslint-sonarts": "^1.8.0",
+    "typescript": "^3.1.1"
+  }
+}

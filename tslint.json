@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-sonarts"
+  ],
+  "jsRules": {},
+  "rules": {
+    "await-promise": true,
+    "max-union-size": false,
+    "no-console": false,
+    "no-duplicate-string": false,
+    "no-duplicate-variable": [true, "check-parameters"],
+    "no-floating-promises": true,
+    "no-for-in-array": true,
+    "no-return-await": true,
+    "no-unnecessary-callback-wrapper": true,
+    "object-literal-sort-keys": false
+  },
+  "rulesDirectory": []
+}
