@@ -2,8 +2,8 @@
   "name": "email-css",
   "version": "0.0.1",
   "description": "Utilities to inline CSS for emails",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "rm *.d.ts *.js **/*.d.ts **/*.js",
     "test": "mocha"
