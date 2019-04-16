@@ -16,7 +16,7 @@ export async function linksToInline(options: LinksToAnyOptions): Promise<string>
   });
 }
 
-function applyRule($: CheerioStatic, rule: css.Rule) {
+function applyRule($: ReturnType<(typeof cheerio)["load"]>, rule: css.Rule) {
   if (!rule.declarations || !rule.selectors) { return; }
   const declarations: {[key: string]: string} = {};
   for (const { property, value } of rule.declarations as css.Declaration[]) {

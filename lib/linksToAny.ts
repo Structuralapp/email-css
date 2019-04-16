@@ -11,7 +11,7 @@ export type LinksToAnyOptions = {
 };
 
 export async function linksToAny(options: LinksToAnyOptions & {
-  resolveStyle: (root: CheerioStatic, styles: string) => void,
+  resolveStyle: (root: ReturnType<(typeof cheerio)["load"]>, styles: string) => void,
 }): Promise<string> {
   let html = "";
   let rootUrl = "";
