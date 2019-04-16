@@ -6,6 +6,7 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": ["node_modules"],
+  "include": ["*.ts", "**/*.ts"],
+  "exclude": ["*.d.ts", "**/*.d.ts", "node_modules"],
   "compileOnSave": true
 }

@@ -20,6 +20,10 @@ describe("linksToStyles", () => {
 }
 </style></head>
 <body>
+  <div class="foo">
+    <div class="bar"></div>
+    <div class="foobar"></div>
+  </div>
 </body></html>`);
   });
 });

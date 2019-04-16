@@ -2,9 +2,10 @@
   "name": "email-css",
   "version": "0.0.1",
   "description": "Utilities to inline CSS for emails",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "clean": "rm *.d.ts *.js **/*.d.ts **/*.js",
     "test": "mocha"
   },
   "repository": {
@@ -36,12 +37,14 @@
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
+    "css": "^2.2.4",
     "fs-extra": "^7.0.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/chai": "^4.1.6",
     "@types/cheerio": "^0.22.9",
+    "@types/css": "0.0.31",
     "@types/fs-extra": "^5.0.4",
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
