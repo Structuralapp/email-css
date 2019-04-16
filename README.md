@@ -12,6 +12,7 @@ Install: `npm i email-css`
 import { linksToStyles } from "email-css";
 
 async function example() {
+  // can use linksToInline() too
   console.log(await linksToStyles({
     url: "https://google.com"
   }));
